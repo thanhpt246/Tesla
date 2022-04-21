@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     color: #171a20;
     font-family: "Mplus1", sans-serif;
@@ -65,9 +61,7 @@ section {
 }
 
 section .content {
-    opacity: 0;
     height: 100vh;
-    position: fixed;
     width: 100%;
     padding-top: 15vh;
     padding-bottom: 15vh;
@@ -76,10 +70,6 @@ section .content {
     grid-template-rows: min-content auto min-content;
     top: 0;
     transition: opacity .3s ease;
-}
-
-section .active .content {
-    opacity: 1
 }
 
 .content h1 {
